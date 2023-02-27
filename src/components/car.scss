@@ -1,0 +1,58 @@
+.car-wrapper{
+   display: flex;
+   column-gap: 15px;
+   align-items: flex-end;
+}
+.drive-btn{
+   margin-left: 5px;
+}
+.start,
+.end{
+   margin: 0 0 5px 5px;
+   border-radius: 2px;
+   //background-color: #fff;
+   border: 2px solid rgba($color: #2341d2, $alpha: 1.0);
+   transition: all 0.3s ease;
+   &:hover{
+      background-color: #2341d2;
+      cursor: pointer;
+   }
+}
+.car{
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   &__img{
+      width: 100px;
+      height: 40px;
+   }
+   &__race{
+      border-bottom: 2px dashed black;
+   }
+   &__finish{
+      position: absolute;
+      right: 100px;
+      //margin-top: 20px;
+      width: 40px;
+      height: auto;
+   }
+}
+.control{
+   display: flex;
+   column-gap: 10px;
+   margin-bottom: 10px;
+   &__select,
+   &__remove{
+      height: 20px;
+      width: 70px;
+      border: none;
+      border-radius: 2px;
+      background-color: rgba($color: #f8d92b, $alpha: 1.0);
+      color: #fff;
+      cursor: pointer;
+   }
+   &__remove{
+      background-color: rgba($color: #d21111, $alpha: 1.0);
+   }
+}

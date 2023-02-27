@@ -1,0 +1,26 @@
+.create-car{
+   margin: 0 0 10px 100px;
+   display: flex;
+   column-gap: 10px;
+   &__name{
+      width: 150px;
+      height: 30px;
+      cursor: pointer;
+   }
+   &__color{
+      height: 30px;
+   }
+   &__button{
+      width: 100px;
+      height: 30px;
+      color: #fff;
+      background-color: rgba($color: #70c46a, $alpha: 1);
+      border: none;
+      border-radius: 2px;
+      transition: all 0.3s ease;
+      &:hover{
+         cursor: pointer;
+         background-color: rgba($color: #61ab5c, $alpha: 1.0);
+      }
+   }
+}

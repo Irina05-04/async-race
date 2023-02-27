@@ -1,0 +1,14 @@
+.generate-cars{
+   width: 100px;
+   height: 30px;
+   margin: 0 0 40px 100px;
+   border: none;
+   border-radius: 2px;
+   background-color: rgba($color: #70c46a, $alpha: 1.0);
+   color: #fff;
+   transition: all 0.3s ease;
+   &:hover{
+      cursor: pointer;
+      background-color: rgba($color: #61ab5c, $alpha: 1.0);
+   }
+}

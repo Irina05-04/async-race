@@ -1,0 +1,27 @@
+.garage{
+   &__header{
+      color: rgba($color: #692828, $alpha: 1.0);
+      font-size: 18px;
+      margin: 0 0 10px 100px;
+   }
+}
+.btn-wrapper{
+   display: flex;
+   column-gap: 10px;
+}
+.winner{
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   font-style: 32px;
+   font-weight: 600;
+   color: rgba($color: #9d1b1b, $alpha: 1.0);
+   padding: 5px 15px;
+   border-radius: 2px;
+   background-color: rgba($color: #f3f2f2, $alpha: 1.0);
+}
+.total-sum{
+   margin-left: 100px;
+   font-size: 14px;
+   opacity: 0.5;
+}
